@@ -1,0 +1,15 @@
+# Node dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Docker
+*.pid
+
+# OS-specific
+.DS_Store
+Thumbs.db
