@@ -1,6 +1,6 @@
 # websocket-server
 
-A simple WebSocket server using Socket.IO and Docker Compose.  
+A simple WebSocket server using Socket.IO.  
 Can be used by any frontend or backend that supports WebSocket communication.
 
 ---
@@ -9,14 +9,18 @@ Can be used by any frontend or backend that supports WebSocket communication.
 
 - Socket.IO-based server
 - Supports rooms (join & broadcast)
-- Runs with a single `docker compose up` command
 
 ---
 
 ## 🛠 Installation
 
-### 1. Clone the repo
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/websocket-server.git
 cd websocket-server
+```
+### 2. Run Docker compose
+
+```bash
+docker compose run -d
