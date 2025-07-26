@@ -23,4 +23,4 @@ cd websocket-server
 ### 2. Run Docker compose
 
 ```bash
-docker compose run -d
+docker compose up -d
